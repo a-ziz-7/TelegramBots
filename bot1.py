@@ -3,6 +3,8 @@ import config
 import time
 import random
 
+# create an API key 
+# this can be done in telegtam
 bot = telebot.TeleBot(config.api_key)
 bot1 = telebot.TeleBot(config.api_key_aeg)
 data = {}
